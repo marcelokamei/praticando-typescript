@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(243 243 243);
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    margin-top: 50px;
+    justify-content: center;
+    display: flex;
+}
+
+.maior{
+    display: flex;
+    flex-direction: column;
+}
+
+.login {
+   display: flex; 
+   width: 300px; 
+   height: 100px; 
+   justify-content: space-between; 
+   flex-direction: column;
+   margin-bottom: 10px;
+}
+
+.pesquisa {
+    margin-left: 20px;
+}
+
+#login-button {
+    cursor: pointer;
+    cursor:hand;
+}
+
+button {
+    cursor: pointer;
+    margin-bottom: 10px;
+    border-radius: 5%;
+    background-color: rgb(162, 255, 0);
+    pointer-events: auto;
+    color: black;
+}
+
+.inputs {
+    width: 250px;
+    border: 1px solid lightgray;
+    height: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    padding-left: 5px;
+    border-radius: 3px;
+}
